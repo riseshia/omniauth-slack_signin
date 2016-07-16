@@ -36,3 +36,7 @@ Devise.setup do |config|
   # ...
 end
 ```
+
+## About API
+
+Follow this [link](https://api.slack.com/methods/users.identity).
