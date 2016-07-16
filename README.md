@@ -2,7 +2,8 @@
 
 This Gem contains the Signin with Slack strategy for OmniAuth.
 
-We already have [good strategy for slack](https://github.com/kmrshntr/omniauth-slack), however, this gem is not work well.
+~~We already have [good strategy for slack](https://github.com/kmrshntr/omniauth-slack), however, this gem is not work well.~~
+**Now, it start to support slack sign-in. I recommend to use this. XD**
 
 In addition, if we want to implement that, we need to be blind. Meaning to say, we should assume `identify.basic` scope is applied or not by returned params. One more thing. Maybe some clever developer handle this problem in the future, but I can't bear to retrieve user name with `auth.info.nickname.name` with `identify` scope. lol.
 
